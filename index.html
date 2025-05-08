@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,36 +13,18 @@
 <body>
     <div class="container">
         <div class="form-box" id="login-form">
-            <form action="login_register.php"method="post">
                 <h2>login</h2>
                 <input type="email"name="email" placeholder="email" required>
                 <input type="email"name="email" placeholder="password" required>
                 <button type="submit" name="login">login</button>
                 <p>Don't have an account?<a href="#" onclick="showform('Register-form')">Register</a></p>
-            </form></div>
-        </div>
-    </div>
-
-
-    <div class="container">
-        <div class="form-box "id="Register-form">
-            <form action="login_register.php"method="post">
-                <h2>Register</h2>
-                
-                <input type="text"name="name" placeholder="name" required>
-                <input type="email"name="email" placeholder="email" required>
-                <input type="email"name="email" placeholder="password" required>
-                <select name="role" required>
-                    <option value="">--select role--</option>
-                    <option value="voter">Voter</option>
-                    <option value="admin">Admin</option>
-                </select>
-                <button type="submit" name="Register">Register</button>
-                <p>Already have an account?<a href="#" onclick="showform('login-form')">login</a></p>
-            </form></div>
+            </form>
         </div>
     </div>
 <script src="login.js"></script>
 </body>
 
 </html>
+
+
+    
