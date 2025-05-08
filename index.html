@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,10 +10,9 @@
 
 <body>
     <div class="container">
-        <div class="form-box "id="login-form">
+        <div class="form-box" id="login-form">
             <form action="login_register.php"method="post">
                 <h2>login</h2>
-                <?= showError($error['login']); ?>
                 <input type="email"name="email" placeholder="email" required>
                 <input type="email"name="email" placeholder="password" required>
                 <button type="submit" name="login">login</button>
@@ -27,10 +23,10 @@
 
 
     <div class="container">
-        <div class="form-box <?= isActiveForm('Register',$activeForm)?>"id="Register-form">
+        <div class="form-box "id="Register-form">
             <form action="login_register.php"method="post">
                 <h2>Register</h2>
-                <?= showError($errors['Register']); ?>
+                
                 <input type="text"name="name" placeholder="name" required>
                 <input type="email"name="email" placeholder="email" required>
                 <input type="email"name="email" placeholder="password" required>
