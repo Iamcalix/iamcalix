@@ -72,6 +72,12 @@ p {
     text-align: center;
     margin-bottom: 10px;
 }
+H1 {
+    padding: 20px;
+    border: top-up;
+
+    
+}
 p a{
     color: #7494ec;
     text-decoration: none;
